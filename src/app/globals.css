@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #FBF7F0;
+  --color-foreground: #2C1810;
+  --color-stone: #9C7A5A;
+  --color-stone-dark: #6B4C33;
+  --color-stone-light: #C4A882;
+  --color-sand: #D4B896;
+  --color-sand-light: #EDE0D0;
+  --color-cream: #F5EDE0;
+  --color-charcoal: #2C1810;
+  --color-warm-white: #FFFAF3;
+  --color-accent: #B8442A;
+  --color-accent-light: #D4613F;
+  --color-gold: #C49A3C;
+  --color-gold-light: #E0BE6A;
+  --color-muted: #8A7060;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-outfit);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-warm-white);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stone-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-stone);
+}
+
+/* Dish carousel animation */
+@keyframes carousel-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-track {
+  animation: carousel-scroll 30s linear infinite;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+/* Video edge fade for mobile */
+.video-edge-fade {
+  mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+/* Oriental decorative border pattern */
+.oriental-border {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-gold) 0px,
+    var(--color-gold) 8px,
+    transparent 8px,
+    transparent 16px,
+    var(--color-accent) 16px,
+    var(--color-accent) 24px,
+    transparent 24px,
+    transparent 32px
+  );
+  height: 3px;
+}
