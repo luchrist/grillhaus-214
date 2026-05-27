@@ -18,7 +18,7 @@ export default function Footer() {
                 alt="Grillhaus 214"
                 width={64}
                 height={64}
-                className="w-14 h-14 lg:w-16 lg:h-16 brightness-0 invert"
+                className="w-14 h-14 lg:w-16 lg:h-16"
               />
               <span className="font-display font-medium text-lg text-warm-white">Grillhaus 214</span>
             </div>
