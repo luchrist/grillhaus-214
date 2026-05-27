@@ -1,0 +1,65 @@
+[
+  {
+    "originalFile": "scraped-01.jpg",
+    "file": "photos/restaurant/restaurant-auenansicht-grill-haus-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Außenansicht Grill Haus",
+    "subjectSlug": "restaurant-auenansicht-grill-haus",
+    "description": "Die Außenansicht des Grill Haus Restaurants mit verschiedenen Werbeschildern und einer Speisekarte auf dem Bürgersteig."
+  },
+  {
+    "originalFile": "scraped-02.jpg",
+    "file": "photos/dishes/doner-teller-mit-pommes-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Döner Teller mit Pommes",
+    "subjectSlug": "doner-teller-mit-pommes",
+    "description": "Ein Döner Teller mit Pommes, Fleisch, Sauce und frischem Salat auf einem Holztisch."
+  },
+  {
+    "originalFile": "scraped-05.jpg",
+    "file": "photos/restaurant/restaurant-fassade-mit-werbung-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Fassade mit Werbung",
+    "subjectSlug": "restaurant-fassade-mit-werbung",
+    "description": "Die Fassade des Restaurants Grill Haus mit verschiedenen Werbeschildern für Gerichte und einer Ankündigung der Neueröffnung."
+  },
+  {
+    "originalFile": "scraped-06.jpg",
+    "file": "photos/restaurant/auenansicht-imbiss-mit-fenster-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Außenansicht Imbiss mit Fenster",
+    "subjectSlug": "auenansicht-imbiss-mit-fenster",
+    "description": "Das Foto zeigt die Außenansicht eines Imbisses mit einem Fenster, das Öffnungszeiten, Lieferservice und einen Döner-Spieß zeigt."
+  },
+  {
+    "originalFile": "scraped-07.jpg",
+    "file": "photos/menu_cards/speisekarte-mit-preisen-und-angeboten-01.jpg",
+    "category": "menu_card",
+    "quality": "high",
+    "subject": "Speisekarte mit Preisen und Angeboten",
+    "subjectSlug": "speisekarte-mit-preisen-und-angeboten",
+    "description": "Das Bild zeigt eine Speisekarte eines Grills mit verschiedenen Gerichten, Preisen und Zusatzoptionen."
+  },
+  {
+    "originalFile": "scraped-09.jpg",
+    "file": "photos/menu_cards/speisekarte-mit-drehspie-und-sandwich-spezialitaten-01.jpg",
+    "category": "menu_card",
+    "quality": "high",
+    "subject": "Speisekarte mit Drehspieß- und Sandwich-Spezialitäten",
+    "subjectSlug": "speisekarte-mit-drehspie-und-sandwich-spezialitaten",
+    "description": "Das Foto zeigt eine Speisekarte mit Drehspieß- und Sandwich-Spezialitäten sowie Preisen und Zutaten."
+  },
+  {
+    "originalFile": "scraped-12.jpg",
+    "file": "photos/menu_cards/speisekarte-mit-pizzaspezialitaten-01.jpg",
+    "category": "menu_card",
+    "quality": "high",
+    "subject": "Speisekarte mit Pizzaspezialitäten",
+    "subjectSlug": "speisekarte-mit-pizzaspezialitaten",
+    "description": "Eine Speisekarte mit verschiedenen Pizza- und vegetarischen Spezialitäten und Preisen."
+  }
+]
