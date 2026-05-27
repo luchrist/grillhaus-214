@@ -8,7 +8,11 @@ export default function DishCarousel() {
 
   if (dishes.length === 0) return null;
 
-  const duplicated = [...dishes, ...dishes];
+  // Repeat the base set enough times so one half always exceeds the viewport,
+  // then duplicate that block so the -50% translateX loops seamlessly.
+  const repeats = Math.max(Math.ceil(10 / dishes.length), 1);
+  const baseSet = Array.from({ length: repeats }, () => dishes).flat();
+  const duplicated = [...baseSet, ...baseSet];
 
   return (
     <section className="py-20 sm:py-28 overflow-hidden">
